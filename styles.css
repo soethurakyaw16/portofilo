@@ -56,6 +56,14 @@ h2 {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+.card {
+    overflow: hidden;
+}
+.card-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
 @media (min-width:320px) and (max-width: 600px) {
   .bgimage {
     height:100vh;
